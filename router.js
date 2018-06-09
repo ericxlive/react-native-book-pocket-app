@@ -69,15 +69,11 @@ export const Tabs = TabNavigator({
             tabBarLabel: 'Lists',
             tabBarIcon: ({
                 tintColor
-            }) => < Icon name = "list"
-            type = "entypo"
-            size = {
-                28
-            }
-            color = {
-                tintColor
-            }
-            />
+            }) =>  <Icon name = "list"
+                         type = "entypo"
+                         size = { 28 }
+                         color = { tintColor }
+                  />
         },
     },
     'My Profile': {
